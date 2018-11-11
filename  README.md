@@ -10,3 +10,5 @@ configure connection.pool.js  mysql server data
 create schema user_chat
 
 npm start
+
+localhost:4000
