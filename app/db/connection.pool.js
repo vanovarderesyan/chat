@@ -5,9 +5,9 @@ class ConnectionPool {
 	constructor() {
 		this[connectionPool] = mysql2.createPool({
 			host: 'localhost',
-			user: 'root',
+			user: 'user',
 			port: "3306",
-			password: "katnajur@1994",
+			password: "password",
 			database: 'user_chat',
 			connectionLimit: 10,
 			waitForConnections: true,
